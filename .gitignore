@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/UnityInformationMachines/Assets/game4automation
+/UnityInformationMachines/UserSettings
+/UnityInformationMachines/Temp
+/UnityInformationMachines/Logs
+/UnityInformationMachines/Library
