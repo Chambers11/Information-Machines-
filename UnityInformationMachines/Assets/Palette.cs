@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Palette : MonoBehaviour
 {
-    public float smoothTime = 1f;
+    public float smoothTime = 0.1f;
 
     private Vector3 targetPostion;
     private Vector3 velocity = Vector3.zero;

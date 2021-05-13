@@ -9,6 +9,7 @@ public class TrackingPalettes : MonoBehaviour
     public int NumberOfPaletts;
     public GameObject[] Palettes;
 
+    public Transform paletteWaitingArea;
     // Start is called before the first frame update
     void Start()
     {
