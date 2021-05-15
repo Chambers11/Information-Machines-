@@ -1,0 +1,2687 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UniCanvas</name>
+    </assembly>
+    <members>
+        <member name="P:UniCanvas.CanvasRenderingContext2D.fillStyle">
+            <summary>
+            Specifies the color, gradient, or pattern to use inside shapes.
+            The default style is #000 (black).
+            </summary>
+        </member>
+        <member name="M:UniCanvas.CanvasRenderingContext2D.createPattern(UniCanvas.OffscreenCanvas,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="image"></param>
+            <param name="repetition">"repeat", "repeat-x", "repeat-y", "no-repeat"</param>
+            <returns></returns>
+        </member>
+        <member name="P:UniCanvas.CanvasRenderingContext2D.lineCap">
+            <summary>
+            "butt", "round", "square"
+            </summary>
+        </member>
+        <member name="P:UniCanvas.CanvasRenderingContext2D.lineJoin">
+            <summary>
+            "bevel", "round", "miter"
+            </summary>
+        </member>
+        <member name="P:UniCanvas.CanvasRenderingContext2D.textAlign">
+            <summary>
+            "left", "right", "center", "start", "end"
+            </summary>
+        </member>
+        <member name="P:UniCanvas.CanvasRenderingContext2D.textBaseline">
+            <summary>
+            "top", "hanging", "middle", "alphabetic", "ideographic", "bottom"
+            </summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Transparent">
+            <summary>rgba(0, 0, 0, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.IndianRed">
+            <summary>rgb(205, 92, 92)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightCoral">
+            <summary>rgb(240, 128, 128)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Salmon">
+            <summary>rgb(250, 128, 114)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkSalmon">
+            <summary>rgb(233, 150, 122)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightSalmon">
+            <summary>rgb(255, 160, 122)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Crimson">
+            <summary>rgb(220, 20, 60)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Red">
+            <summary>rgb(255, 0, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.FireBrick">
+            <summary>rgb(178, 34, 34)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkRed">
+            <summary>rgb(139, 0, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Pink">
+            <summary>rgb(255, 192, 203)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightPink">
+            <summary>rgb(255, 182, 193)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.HotPink">
+            <summary>rgb(255, 105, 180)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DeepPink">
+            <summary>rgb(255, 20, 147)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumVioletRed">
+            <summary>rgb(199, 21, 133)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PaleVioletRed">
+            <summary>rgb(219, 112, 147)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Coral">
+            <summary>rgb(255, 127, 80)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Tomato">
+            <summary>rgb(255, 99, 71)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.OrangeRed">
+            <summary>rgb(255, 69, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkOrange">
+            <summary>rgb(255, 140, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Orange">
+            <summary>rgb(255, 165, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Gold">
+            <summary>rgb(255, 215, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Yellow">
+            <summary>rgb(255, 255, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightYellow">
+            <summary>rgb(255, 255, 224)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LemonChiffon">
+            <summary>rgb(255, 250, 205)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightGoldenrodYellow">
+            <summary>rgb(250, 250, 210)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PapayaWhip">
+            <summary>rgb(255, 239, 213)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Moccasin">
+            <summary>rgb(255, 228, 181)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PeachPuff">
+            <summary>rgb(255, 218, 185)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PaleGoldenrod">
+            <summary>rgb(238, 232, 170)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Khaki">
+            <summary>rgb(240, 230, 140)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkKhaki">
+            <summary>rgb(189, 183, 107)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Lavender">
+            <summary>rgb(230, 230, 250)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Thistle">
+            <summary>rgb(216, 191, 216)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Plum">
+            <summary>rgb(221, 160, 221)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Violet">
+            <summary>rgb(238, 130, 238)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Orchid">
+            <summary>rgb(218, 112, 214)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Fuchsia">
+            <summary>rgb(255, 0, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Magenta">
+            <summary>rgb(255, 0, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumOrchid">
+            <summary>rgb(186, 85, 211)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumPurple">
+            <summary>rgb(147, 112, 219)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.BlueViolet">
+            <summary>rgb(138, 43, 226)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkViolet">
+            <summary>rgb(148, 0, 211)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkOrchid">
+            <summary>rgb(153, 50, 204)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkMagenta">
+            <summary>rgb(139, 0, 139)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Purple">
+            <summary>rgb(128, 0, 128)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.RebeccaPurple">
+            <summary>rgb(102, 51, 153)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Indigo">
+            <summary>rgb(75, 0, 130)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumSlateBlue">
+            <summary>rgb(123, 104, 238)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SlateBlue">
+            <summary>rgb(106, 90, 205)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkSlateBlue">
+            <summary>rgb(72, 61, 139)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.GreenYellow">
+            <summary>rgb(173, 255, 47)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Chartreuse">
+            <summary>rgb(127, 255, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LawnGreen">
+            <summary>rgb(124, 252, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Lime">
+            <summary>rgb(0, 255, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LimeGreen">
+            <summary>rgb(50, 205, 50)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PaleGreen">
+            <summary>rgb(152, 251, 152)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightGreen">
+            <summary>rgb(144, 238, 144)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumSpringGreen">
+            <summary>rgb(0, 250, 154)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SpringGreen">
+            <summary>rgb(0, 255, 127)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumSeaGreen">
+            <summary>rgb(60, 179, 113)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SeaGreen">
+            <summary>rgb(46, 139, 87)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.ForestGreen">
+            <summary>rgb(34, 139, 34)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Green">
+            <summary>rgb(0, 128, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkGreen">
+            <summary>rgb(0, 100, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.YellowGreen">
+            <summary>rgb(154, 205, 50)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.OliveDrab">
+            <summary>rgb(107, 142, 35)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Olive">
+            <summary>rgb(128, 128, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkOliveGreen">
+            <summary>rgb(85, 107, 47)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumAquamarine">
+            <summary>rgb(102, 205, 170)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkSeaGreen">
+            <summary>rgb(143, 188, 143)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightSeaGreen">
+            <summary>rgb(32, 178, 170)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkCyan">
+            <summary>rgb(0, 139, 139)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Teal">
+            <summary>rgb(0, 128, 128)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Aqua">
+            <summary>rgb(0, 255, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Cyan">
+            <summary>rgb(0, 255, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightCyan">
+            <summary>rgb(224, 255, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PaleTurquoise">
+            <summary>rgb(175, 238, 238)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Aquamarine">
+            <summary>rgb(127, 255, 212)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Turquoise">
+            <summary>rgb(64, 224, 208)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumTurquoise">
+            <summary>rgb(72, 209, 204)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkTurquoise">
+            <summary>rgb(0, 206, 209)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.CadetBlue">
+            <summary>rgb(95, 158, 160)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SteelBlue">
+            <summary>rgb(70, 130, 180)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightSteelBlue">
+            <summary>rgb(176, 196, 222)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.PowderBlue">
+            <summary>rgb(176, 224, 230)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightBlue">
+            <summary>rgb(173, 216, 230)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SkyBlue">
+            <summary>rgb(135, 206, 235)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightSkyBlue">
+            <summary>rgb(135, 206, 250)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DeepSkyBlue">
+            <summary>rgb(0, 191, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DodgerBlue">
+            <summary>rgb(30, 144, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.CornflowerBlue">
+            <summary>rgb(100, 149, 237)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.RoyalBlue">
+            <summary>rgb(65, 105, 225)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Blue">
+            <summary>rgb(0, 0, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MediumBlue">
+            <summary>rgb(0, 0, 205)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkBlue">
+            <summary>rgb(0, 0, 139)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Navy">
+            <summary>rgb(0, 0, 128)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MidnightBlue">
+            <summary>rgb(25, 25, 112)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Cornsilk">
+            <summary>rgb(255, 248, 220)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.BlanchedAlmond">
+            <summary>rgb(255, 235, 205)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Bisque">
+            <summary>rgb(255, 228, 196)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.NavajoWhite">
+            <summary>rgb(255, 222, 173)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Wheat">
+            <summary>rgb(245, 222, 179)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.BurlyWood">
+            <summary>rgb(222, 184, 135)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Tan">
+            <summary>rgb(210, 180, 140)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.RosyBrown">
+            <summary>rgb(188, 143, 143)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SandyBrown">
+            <summary>rgb(244, 164, 96)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Goldenrod">
+            <summary>rgb(218, 165, 32)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkGoldenrod">
+            <summary>rgb(184, 134, 11)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Peru">
+            <summary>rgb(205, 133, 63)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Chocolate">
+            <summary>rgb(210, 105, 30)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SaddleBrown">
+            <summary>rgb(139, 69, 19)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Sienna">
+            <summary>rgb(160, 82, 45)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Brown">
+            <summary>rgb(165, 42, 42)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Maroon">
+            <summary>rgb(128, 0, 0)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.White">
+            <summary>rgb(255, 255, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Snow">
+            <summary>rgb(255, 250, 250)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Honeydew">
+            <summary>rgb(240, 255, 240)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MintCream">
+            <summary>rgb(245, 255, 250)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Azure">
+            <summary>rgb(240, 255, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.AliceBlue">
+            <summary>rgb(240, 248, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.GhostWhite">
+            <summary>rgb(248, 248, 255)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.WhiteSmoke">
+            <summary>rgb(245, 245, 245)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Seashell">
+            <summary>rgb(255, 245, 238)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Beige">
+            <summary>rgb(245, 245, 220)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.OldLace">
+            <summary>rgb(253, 245, 230)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.FloralWhite">
+            <summary>rgb(255, 250, 240)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Ivory">
+            <summary>rgb(255, 255, 240)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.AntiqueWhite">
+            <summary>rgb(250, 235, 215)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Linen">
+            <summary>rgb(250, 240, 230)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LavenderBlush">
+            <summary>rgb(255, 240, 245)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.MistyRose">
+            <summary>rgb(255, 228, 225)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Gainsboro">
+            <summary>rgb(220, 220, 220)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightGray">
+            <summary>rgb(211, 211, 211)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightGrey">
+            <summary>rgb(211, 211, 211)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Silver">
+            <summary>rgb(192, 192, 192)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkGray">
+            <summary>rgb(169, 169, 169)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkGrey">
+            <summary>rgb(169, 169, 169)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Gray">
+            <summary>rgb(128, 128, 128)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Grey">
+            <summary>rgb(128, 128, 128)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DimGray">
+            <summary>rgb(105, 105, 105)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DimGrey">
+            <summary>rgb(105, 105, 105)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightSlateGray">
+            <summary>rgb(119, 136, 153)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.LightSlateGrey">
+            <summary>rgb(119, 136, 153)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SlateGray">
+            <summary>rgb(112, 128, 144)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.SlateGrey">
+            <summary>rgb(112, 128, 144)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkSlateGray">
+            <summary>rgb(47, 79, 79)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.DarkSlateGrey">
+            <summary>rgb(47, 79, 79)</summary>
+        </member>
+        <member name="P:UniCanvas.Web.CSSColor.Black">
+            <summary>rgb(0, 0, 0)</summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.ch">
+            <summary>
+            Relative to width of the "0" (zero)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.em">
+            <summary>
+            Relative to the font-size of the element
+            (2em means 2 times the size of the current font)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.ex">
+            <summary>
+            Relative to the x-height of the current font
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.rem">
+            <summary>
+            Relative to font-size of the root element
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.vh">
+            <summary>
+            Relative to 1% of the height of the viewport
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.vw">
+            <summary>
+            Relative to 1% of the width of the viewport
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.vmin">
+            <summary>
+            Relative to 1% of viewport's smaller dimension
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.vmax">
+            <summary>
+            Relative to 1% of viewport's larger dimension
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.px">
+            <summary>
+            pixels (1px = 1/96th of 1in)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.cm">
+            <summary>
+            centimeters
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.mm">
+            <summary>
+            millimeters
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.in">
+            <summary>
+            inches (1in = 96px = 2.54cm)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.pc">
+            <summary>
+            picas (1pc = 12 pt)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Web.CSSLength.Type.pt">
+            <summary>
+            points (1pt = 1/72 of 1in)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Repetition.Type.Repeat">
+            <summary>
+            both directions
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Repetition.Type.RepeatX">
+            <summary>
+            horizontal only
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Repetition.Type.RepeatY">
+            <summary>
+            vertical only
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Repetition.Type.NoRepeat">
+            <summary>
+            neither direction
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextAlign.Type.Left">
+            <summary>
+            The text is left-aligned.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextAlign.Type.Right">
+            <summary>
+            The text is right-aligned.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextAlign.Type.Center">
+            <summary>
+            The text is centered.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextAlign.Type.Start">
+            <summary>
+            The text is aligned at the normal start of the line
+            (left-aligned for left-to-right locales,
+            right-aligned for right-to-left locales).
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextAlign.Type.End">
+            <summary>
+            The text is aligned at the normal end of the line
+            (right-aligned for left-to-right locales,
+            left-aligned for right-to-left locales).
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextBaseline.Type.Top">
+            <summary>
+            The text baseline is the top of the em square.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextBaseline.Type.Hanging">
+            <summary>
+            The text baseline is the hanging baseline.
+            (Used by Tibetan and other Indic scripts.)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextBaseline.Type.Middle">
+            <summary>
+            The text baseline is the middle of the em square.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextBaseline.Type.Alphabetic">
+            <summary>
+            The text baseline is the normal alphabetic baseline.
+            Default value.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextBaseline.Type.Ideographic">
+            <summary>
+            The text baseline is the ideographic baseline;
+            this is the bottom of the body of the characters,
+            if the main body of characters protrudes beneath
+            the alphabetic baseline.
+            (Used by Chinese, Japanese, and Korean scripts.)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.TextBaseline.Type.Bottom">
+            <summary>
+            The text baseline is the bottom of the bounding box.
+            This differs from the ideographic baseline in that
+            the ideographic baseline doesn't consider descenders.
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Antialias">
+            <summary>
+            Specifies the type of antialiasing to do
+            when rendering text or shapes.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.Default">
+            <summary>
+            Use the default antialiasing for
+            the subsystem and target device,
+            since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.None">
+            <summary>
+            Use a bilevel alpha mask,
+            since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.Gray">
+            <summary>
+            Perform single-color antialiasing
+            (using shades of gray for black text
+            on a white background, for example),
+            since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.Subpixel">
+            <summary>
+            Perform antialiasing by taking advantage
+            of the order of subpixel elements on devices
+            such as LCD panels,
+            since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.Fast">
+            <summary>
+            Hint that the backend should perform some
+            antialiasing but prefer speed over quality,
+            since 1.12
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.Good">
+            <summary>
+            The backend should balance quality against performance,
+            since 1.12
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Antialias.Best">
+            <summary>
+            Hint that the backend should render at the highest quality,
+            sacrificing speed if necessary,
+            since 1.12
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Content">
+            <summary>
+            Content is used to describe the content that a surface will contain,
+            whether color information, alpha information (translucence vs. opacity), or both.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Content.Color">
+            <summary>
+            The surface will hold color content only.
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Content.Alpha">
+            <summary>
+            The surface will hold alpha content only.
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Content.ColorAlpha">
+            <summary>
+            The surface will hold color and alpha content.
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.DeviceType">
+            <summary>
+            DeviceType is used to describe the type of a given device.
+            The devices types are also known as "backends" within cairo.
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.DRM">
+            <summary>
+            The device is of type Direct Render Manager, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.GL">
+            <summary>
+            The device is of type OpenGL, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.Script">
+            <summary>
+            The device is of type script, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.XCB">
+            <summary>
+            The device is of type xcb, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.XLib">
+            <summary>
+            The device is of type xlib, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.XML">
+            <summary>
+            The device is of type XML, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.Cogl">
+            <summary>
+            The device is of type cogl, since 1.12
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.Win32">
+            <summary>
+            The device is of type win32, since 1.12
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.DeviceType.Invalid">
+            <summary>
+            The device is invalid, since 1.10
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Extend">
+            <summary>
+            Extend is used to describe how pattern color/alpha will be determined
+            for areas "outside" the pattern's natural area,
+            (for example, outside the surface bounds or outside the gradient geometry).
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Extend.None">
+            <summary>
+            pixels outside of the source pattern are fully transparent (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Extend.Repeat">
+            <summary>
+            the pattern is tiled by repeating (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Extend.Reflect">
+            <summary>
+            the pattern is tiled by reflecting at the edges
+            (Since 1.0; but only implemented for surface patterns since 1.6)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Extend.Pad">
+            <summary>
+            pixels outside of the pattern copy the closest pixel from the source
+            (Since 1.2; but only implemented for surface patterns since 1.6)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.FillRule">
+            <summary>
+            FillRule is used to select how paths are filled.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FillRule.Winding">
+            <summary>
+            If the path crosses the ray from left-to-right, counts +1.
+            If the path crosses the ray from right to left, counts -1.
+            (Left and right are determined from the perspective of
+            looking along the ray from the starting point.)
+            If the total count is non-zero, the point will be filled. (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FillRule.EvenOdd">
+            <summary>
+            Counts the total number of intersections,
+            without regard to the orientation of the contour.
+            If the total number of intersections is odd,
+            the point will be filled. (Since 1.0)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Filter">
+            <summary>
+            Filter is used to indicate what filtering should be applied
+            when reading pixel values from patterns.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Filter.Fast">
+            <summary>
+            A high-performance filter,
+            with quality similar to Nearest (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Filter.Good">
+            <summary>
+            A reasonable-performance filter,
+            with quality similar to Bilinear (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Filter.Best">
+            <summary>
+            The highest-quality available,
+            performance may not be suitable for interactive use. (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Filter.Nearest">
+            <summary>
+            Nearest-neighbor filtering (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Filter.Bilinear">
+            <summary>
+            Linear interpolation in two dimensions (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Filter.Gaussian">
+            <summary>
+            This filter value is currently unimplemented,
+            and should not be used in current code. (Since 1.0)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.FontSlant">
+            <summary>
+            Specifies variants of a font face based on their slant.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontSlant.Normal">
+            <summary>
+            Upright font style, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontSlant.Italic">
+            <summary>
+            Italic font style, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontSlant.Oblique">
+            <summary>
+            Oblique font style, since 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.FontType">
+            <summary>
+            FontType is used to describe the type of a given font face or scaled font.
+            The font types are also known as "font backends" within cairo.
+            Since: 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontType.Toy">
+            <summary>
+            The font was created using cairo's toy font api (Since: 1.2)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontType.FT">
+            <summary>
+            The font is of type FreeType (Since: 1.2)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontType.Win32">
+            <summary>
+            The font is of type Win32 (Since: 1.2)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontType.Quartz">
+            <summary>
+            The font is of type Quartz
+            (Since: 1.6, in 1.2 and 1.4 it was named CAIRO_FONT_TYPE_ATSUI)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontType.User">
+            <summary>
+            The font was create using cairo's user font api (Since: 1.8)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.FontWeight">
+            <summary>
+            Specifies variants of a font face based on their weight.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontWeight.Normal">
+            <summary>
+            Normal font weight, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontWeight.Bold">
+            <summary>
+            Bold font weight, since 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Format">
+            <summary>
+            Format is used to identify the memory format of image data.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.Invalid">
+            <summary>
+            no such format exists or is supported.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.ARGB32">
+            <summary>
+            each pixel is a 32-bit quantity, with alpha in the upper 8 bits,
+            then red, then green, then blue.
+            The 32-bit quantities are stored native-endian.
+            Pre-multiplied alpha is used.
+            (That is, 50% transparent red is 0x80800000, not 0x80ff0000.)
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.RGB24">
+            <summary>
+            each pixel is a 32-bit quantity, with the upper 8 bits unused.
+            Red, Green, and Blue are stored in the remaining 24 bits in that order.
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.A8">
+            <summary>
+            each pixel is a 8-bit quantity holding an alpha value. (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.A1">
+            <summary>
+            each pixel is a 1-bit quantity holding an alpha value.
+            Pixels are packed together into 32-bit quantities.
+            The ordering of the bits matches the endianness of the platform.
+            On a big-endian machine, the first pixel is in the uppermost bit,
+            on a little-endian machine the first pixel is in the
+            least-significant bit. (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.RGB16_565">
+            <summary>
+            each pixel is a 16-bit quantity with red in the upper 5 bits,
+            then green in the middle 6 bits, and blue in the lower 5 bits.
+            (Since 1.2)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Format.RGB30">
+            <summary>
+            like RGB24 but with 10bpc. (Since 1.12)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.FTSynthesize">
+            <summary>
+            A set of synthesis options to control how
+            FreeType renders the glyphs for a particular font face.
+            Since: 1.12
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FTSynthesize.Bold">
+            <summary>
+            Embolden the glyphs (redraw with a pixel offset)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FTSynthesize.Oblique">
+            <summary>
+            Slant the glyph outline by 12 degrees to the right.
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.HintMetrics">
+            <summary>
+            Specifies whether to hint font metrics.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintMetrics.Default">
+            <summary>
+            Hint metrics in the default manner for the font backend and target device, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintMetrics.Off">
+            <summary>
+            Do not hint font metrics, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintMetrics.On">
+            <summary>
+            Hint font metrics, since 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.HintStyle">
+            <summary>
+            Specifies the type of hinting to do on font outlines.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintStyle.Default">
+            <summary>
+            Use the default hint style for font backend and target device, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintStyle.None">
+            <summary>
+            Do not hint outlines, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintStyle.Slight">
+            <summary>
+            Hint outlines slightly to improve contrast while retaining
+            good fidelity to the original shapes, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintStyle.Medium">
+            <summary>
+            Hint outlines with medium strength giving a compromise between
+            fidelity to the original shapes and contrast, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.HintStyle.Full">
+            <summary>
+            Hint outlines to maximize contrast, since 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.LineCap">
+            <summary>
+            Specifies how to render the endpoints of the path when stroking.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.LineCap.Butt">
+            <summary>
+            start(stop) the line exactly at the start(end) point
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.LineCap.Round">
+            <summary>
+            use a round ending, the center of the circle is the end point
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.LineCap.Square">
+            <summary>
+            use squared ending, the center of the square is the end point
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.LineJoin">
+            <summary>
+            Specifies how to render the junction of two lines when stroking.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.LineJoin.Miter">
+            <summary>
+            use a sharp (angled) corner, see cairo_set_miter_limit()
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.LineJoin.Round">
+            <summary>
+            use a rounded join, the center of the circle is the joint point
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.LineJoin.Bevel">
+            <summary>
+            use a cut-off join, the join is cut off at half
+            the line width from the joint point (Since 1.0)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Operator">
+            <summary>
+            Operator is used to set the compositing operator
+            for all cairo drawing operations.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Clear">
+            <summary>
+            clear destination layer (bounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Source">
+            <summary>
+            replace destination layer (bounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Over">
+            <summary>
+            draw source layer on top of destination layer
+            (bounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.In">
+            <summary>
+            draw source where there was destination content
+            (unbounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Out">
+            <summary>
+            draw source where there was no destination
+            content (unbounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Atop">
+            <summary>
+            draw source on top of destination content and
+            only there (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Dest">
+            <summary>
+            ignore the source (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.DestOver">
+            <summary>
+            draw destination on top of source (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.DestIn">
+            <summary>
+            leave destination only where there was source content
+            (unbounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.DestOut">
+            <summary>
+            leave destination only where there was no source content
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.DestAtop">
+            <summary>
+            leave destination on top of source content and only there
+            (unbounded) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Xor">
+            <summary>
+            source and destination are shown where there is only one of them
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Add">
+            <summary>
+            source and destination layers are accumulated (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Saturate">
+            <summary>
+            like over, but assuming source and dest are disjoint geometries
+            (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Multiply">
+            <summary>
+            source and destination layers are multiplied.
+            This causes the result to be at least as dark as the darker inputs.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Screen">
+            <summary>
+            source and destination are complemented and multiplied.
+            This causes the result to be at least as light as the lighter inputs.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Overlay">
+            <summary>
+            multiplies or screens, depending on the lightness of the destination color.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Darken">
+            <summary>
+            replaces the destination with the source if it is darker,
+            otherwise keeps the source. (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Lighten">
+            <summary>
+            replaces the destination with the source if it is lighter,
+            otherwise keeps the source. (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.ColorDodge">
+            <summary>
+            brightens the destination color to reflect the source color.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.ColorBurn">
+            <summary>
+            darkens the destination color to reflect the source color.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.HardLight">
+            <summary>
+            Multiplies or screens, dependent on source color.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.SoftLight">
+            <summary>
+            Darkens or lightens, dependent on source color.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Difference">
+            <summary>
+            Takes the difference of the source and destination color.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.Exclusion">
+            <summary>
+            Produces an effect similar to difference,
+            but with lower contrast. (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.HslHue">
+            <summary>
+            Creates a color with the hue of the source and
+            the saturation and luminosity of the target. (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.HslSaturation">
+            <summary>
+            Creates a color with the saturation of the source
+            and the hue and luminosity of the target.
+            Painting with this mode onto a gray area produces no change.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.HslColor">
+            <summary>
+            Creates a color with the hue and saturation of the source
+            and the luminosity of the target.
+            This preserves the gray levels of the target and is useful
+            for coloring monochrome images or tinting color images.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Operator.HslLuminosity">
+            <summary>
+            Creates a color with the luminosity of the source
+            and the hue and saturation of the target.
+            This produces an inverse effect to HslColor.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PathDataType">
+            <summary>
+            PathDataType is used to describe the type of one portion
+            of a path when represented as a Path.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PathDataType.MoveTo">
+            <summary>
+            A move-to operation, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PathDataType.LineTo">
+            <summary>
+            A line-to operation, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PathDataType.CurveTo">
+            <summary>
+            A curve-to operation, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PathDataType.ClosePath">
+            <summary>
+            A close-path operation, since 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PatternType">
+            <summary>
+            PatternType is used to describe the type of a given pattern.
+            Since: 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PatternType.Solid">
+            <summary>
+            The pattern is a solid (uniform) color.
+            It may be opaque or translucent, since 1.2.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PatternType.Surface">
+            <summary>
+            The pattern is a based on a surface (an image), since 1.2.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PatternType.Linear">
+            <summary>
+            The pattern is a linear gradient, since 1.2.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PatternType.Radial">
+            <summary>
+            The pattern is a radial gradient, since 1.2.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PatternType.Mesh">
+            <summary>
+            The pattern is a mesh, since 1.12.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PatternType.RasterSource">
+            <summary>
+            The pattern is a user pattern providing raster data,
+            since 1.12.
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PDFMetadata">
+            <summary>
+            PDFMetadata is used by the cairo_pdf_surface_set_metadata()
+            function specify the metadata to set.
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.Title">
+            <summary>
+            The document title (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.Author">
+            <summary>
+            The document author (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.Subject">
+            <summary>
+            The document subject (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.Keywords">
+            <summary>
+            The document keywords (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.Creator">
+            <summary>
+            The document creator (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.CreateDate">
+            <summary>
+            The document creation date (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFMetadata.ModDate">
+            <summary>
+            The document modification date (Since 1.16)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PDFOutlineFlags">
+            <summary>
+            PDFOutlineFlags is used by the cairo_pdf_surface_add_outline()
+            function specify the attributes of an outline item.
+            These flags may be bitwise-or'd to produce any combination of flags.
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFOutlineFlags.Open">
+            <summary>
+            The outline item defaults to open in the PDF viewer (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFOutlineFlags.Bold">
+            <summary>
+            The outline item is displayed by the viewer in bold text (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFOutlineFlags.Italic">
+            <summary>
+            The outline item is displayed by the viewer in italic text (Since 1.16)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PDFVersion">
+            <summary>
+            PDFVersion is used to describe the version number of
+            the PDF specification that a generated PDF file will conform to.
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFVersion.Version_1_4">
+            <summary>
+            The version 1.4 of the PDF specification. (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PDFVersion.Version_1_5">
+            <summary>
+            The version 1.5 of the PDF specification. (Since 1.10)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PSLevel">
+            <summary>
+            PSLevel is used to describe the language level of
+            the PostScript Language Reference that a generated
+            PostScript file will conform to.
+            Since: 1.6
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PSLevel.Level2">
+            <summary>
+            The language level 2 of the PostScript specification.
+            (Since 1.6)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.PSLevel.Level3">
+            <summary>
+            The language level 3 of the PostScript specification.
+            (Since 1.6)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.RegionOverlap">
+            <summary>
+            Used as the return value for cairo_region_contains_rectangle().
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RegionOverlap.In">
+            <summary>
+            The contents are entirely inside the region.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RegionOverlap.Out">
+            <summary>
+            The contents are entirely outside the region.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RegionOverlap.Part">
+            <summary>
+            The contents are partially inside
+            and partially outside the region.
+            (Since 1.10)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.ScriptMode">
+            <summary>
+            A set of script output variants.
+            Since: 1.12
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.ScriptMode.Ascii">
+            <summary>
+            the output will be in readable text (default).
+            (Since 1.12)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.ScriptMode.Binary">
+            <summary>
+            the output will use byte codes.
+            (Since 1.12)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Status">
+            <summary>
+            CairoStatus is used to indicate errors that can occur when using Cairo.
+            Since: 1.0
+            </summary>
+            <remarks>
+            In some cases it is returned directly by functions.
+            but when using cairo_t, the last error,
+            if any, is stored in the context and can be retrieved with cairo_status().
+            </remarks>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.Success">
+            <summary>
+            no error has occurred (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.NoMemory">
+            <summary>
+            out of memory (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidRestore">
+            <summary>
+            cairo_restore() called without matching
+            cairo_save() (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidPopGroup">
+            <summary>
+            no saved group to pop, i.e. cairo_pop_group()
+            without matching cairo_push_group() (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.NoCurrentPoint">
+            <summary>
+            no current point defined (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidMatrix">
+            <summary>
+            invalid matrix (not invertible) (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidStatus">
+            <summary>
+            invalid value for an input cairo_status_t (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.NullPointer">
+            <summary>
+            NULL pointer (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidString">
+            <summary>
+            input string not valid UTF-8 (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidPathData">
+            <summary>
+            input path data not valid (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.ReadError">
+            <summary>
+            error while reading from input stream (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.WriteError">
+            <summary>
+            error while writing to output stream (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.SurfaceFinished">
+            <summary>
+            target surface has been finished (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.SurfaceTypeMismatch">
+            <summary>
+            the surface type is not appropriate for the operation (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.PatternTypeMismatch">
+            <summary>
+            the pattern type is not appropriate for the operation (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidContent">
+            <summary>
+            invalid value for an input cairo_content_t (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidFormat">
+            <summary>
+            invalid value for an input cairo_format_t (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidVisual">
+            <summary>
+            invalid value for an input Visual* (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.FileNotFound">
+            <summary>
+            file not found (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidDash">
+            <summary>
+            invalid value for a dash setting (Since 1.0)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidDscComment">
+            <summary>
+            invalid value for a DSC comment (Since 1.2)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidIndex">
+            <summary>
+            invalid index passed to getter (Since 1.4)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.ClipNotRepresentable">
+            <summary>
+            clip region not representable in desired format (Since 1.4)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.TempFileError">
+            <summary>
+            error creating or writing to a temporary file (Since 1.6)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidStride">
+            <summary>
+            invalid value for stride (Since 1.6)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.FontTypeMismatch">
+            <summary>
+            the font type is not appropriate for the operation (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.UserFontImmutable">
+            <summary>
+            the user-font is immutable (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.UserFontError">
+            <summary>
+            error occurred in a user-font callback function (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.NegativeCount">
+            <summary>
+            negative number used where it is not allowed (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidClusters">
+            <summary>
+            input clusters do not represent the accompanying
+            text and glyph array (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidSlant">
+            <summary>
+            invalid value for an input cairo_font_slant_t (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidWeight">
+            <summary>
+            invalid value for an input cairo_font_weight_t (Since 1.8)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidSize">
+            <summary>
+            invalid value (typically too big) for the size
+            of the input (surface, pattern, etc.) (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.UserFontNotImplemented">
+            <summary>
+            user-font method not implemented (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.DeviceTypeMismatch">
+            <summary>
+            the device type is not appropriate for the operation (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.DeviceError">
+            <summary>
+            an operation to the device caused an unspecified error (Since 1.10)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.InvalidMeshConstruction">
+            <summary>
+            a mesh pattern construction operation was used outside
+            of a cairo_mesh_pattern_begin_patch()/cairo_mesh_pattern_end_patch()
+            pair (Since 1.12)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.DeviceFinished">
+            <summary>
+            target device has been finished (Since 1.12)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.Jbig2GlobalMissing">
+            <summary>
+            CAIRO_MIME_TYPE_JBIG2_GLOBAL_ID has been used on at least
+            one image but no image provided CAIRO_MIME_TYPE_JBIG2_GLOBAL
+            (Since 1.14)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.PngError">
+            <summary>
+            error occurred in libpng while reading from or
+            writing to a PNG file (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.FreetypeError">
+            <summary>
+            error occurred in libfreetype (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.Win32GdiError">
+            <summary>
+            error occurred in the Windows Graphics Device Interface
+            (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.TagError">
+            <summary>
+            invalid tag name, attributes, or nesting (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Status.LastStatus">
+            <summary>
+            this is a special value indicating the number of status
+            values defined in this enumeration.
+            When using this value, note that the version of cairo
+            at run-time may have additional status values defined
+            than the value of this symbol at compile-time. (Since 1.10)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.SubpixelOrder">
+            <summary>
+            The subpixel order specifies the order of color elements
+            within each pixel on the display device when rendering
+            with an antialiasing mode of CAIRO_ANTIALIAS_SUBPIXEL.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SubpixelOrder.Default">
+            <summary>
+            Use the default subpixel order for for the target device, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SubpixelOrder.RGB">
+            <summary>
+            Subpixel elements are arranged horizontally with red at the left, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SubpixelOrder.BGR">
+            <summary>
+            Subpixel elements are arranged horizontally with blue at the left, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SubpixelOrder.VRGB">
+            <summary>
+            Subpixel elements are arranged vertically with red at the top, since 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SubpixelOrder.VBGR">
+            <summary>
+            Subpixel elements are arranged vertically with blue at the top, since 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.SurfaceType">
+            <summary>
+            SurfaceType is used to describe the type of a given surface.
+            The surface types are also known as "backends" or
+            "surface backends" within cairo.
+            Since: 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Image">
+            <summary>
+            The surface is of type image, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.PDF">
+            <summary>
+            The surface is of type pdf, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.PS">
+            <summary>
+            The surface is of type ps, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.XLib">
+            <summary>
+            The surface is of type xlib, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.XCB">
+            <summary>
+            The surface is of type xcb, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Glitz">
+            <summary>
+            The surface is of type glitz, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Quartz">
+            <summary>
+            The surface is of type quartz, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Win32">
+            <summary>
+            The surface is of type win32, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.BeOS">
+            <summary>
+            The surface is of type beos, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.DirectFB">
+            <summary>
+            The surface is of type directfb, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.SVG">
+            <summary>
+            The surface is of type svg, since 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.OS2">
+            <summary>
+            The surface is of type os2, since 1.4
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Win32Printing">
+            <summary>
+            The surface is a win32 printing surface, since 1.6
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.QuartzImage">
+            <summary>
+            The surface is of type quartz_image, since 1.6
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Script">
+            <summary>
+            The surface is of type script, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Qt">
+            <summary>
+            The surface is of type Qt, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Recording">
+            <summary>
+            The surface is of type recording, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.VG">
+            <summary>
+            The surface is a OpenVG surface, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.GL">
+            <summary>
+            The surface is of type OpenGL, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.DRM">
+            <summary>
+            The surface is of type Direct Render Manager, since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Tee">
+            <summary>
+            The surface is of type 'tee' (a multiplexing surface), since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.XML">
+            <summary>
+            The surface is of type XML (for debugging), since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.SubSurface">
+            <summary>
+            The surface is a subsurface created with
+            cairo_surface_create_for_rectangle(), since 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SurfaceType.Cogl">
+            <summary>
+            This surface is of type Cogl, since 1.12
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.SVGUnit">
+            <summary>
+            SVGUnit is used to describe the units valid for
+            coordinates and lengths in the SVG specification.
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.User">
+            <summary>
+            User unit, a value in the current coordinate system.
+            If used in the root element for the initial
+            coordinate systems it corresponds to pixels. (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.EM">
+            <summary>
+            The size of the element's font. (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.EX">
+            <summary>
+            The x-height of the element’s font. (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.PX">
+            <summary>
+            Pixels (1px = 1/96th of 1in). (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.IN">
+            <summary>
+            Inches (1in = 2.54cm = 96px). (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.CM">
+            <summary>
+            Centimeters (1cm = 96px/2.54). (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.MM">
+            <summary>
+            Millimeters (1mm = 1/10th of 1cm). (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.PT">
+            <summary>
+            Points (1pt = 1/72th of 1in). (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.PC">
+            <summary>
+            Picas (1pc = 1/6th of 1in). (Since 1.16)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGUnit.Percent">
+            <summary>
+            Percent, a value that is some fraction of
+            another reference value. (Since 1.16)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.SVGVersion">
+            <summary>
+            cairo_svg_version_t is used to describe the version number
+            of the SVG specification that a generated SVG file will conform to.
+            Since: 1.2
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGVersion.Version_1_1">
+            <summary>
+            The version 1.1 of the SVG specification. (Since 1.2)
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.SVGVersion.Version_1_2">
+            <summary>
+            The version 1.2 of the SVG specification. (Since 1.2)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.TextClusterFlags">
+            <summary>
+            Specifies properties of a text cluster mapping.
+            Since: 1.8
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextClusterFlags.Backward">
+            <summary>
+            The clusters in the cluster array map to glyphs
+            in the glyph array from end to start. (Since 1.8)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.CairoMatrix">
+            <summary>
+            A Matrix holds an affine transformation,
+            such as a scale, rotation, shear, or a combination of those.
+            Since: 1.0
+            </summary>
+            <remarks>
+            The transformation of a point (x, y) is given by:
+            <code>
+            x_new = xx * x + xy * y + x0;
+            y_new = yx * x + yy * y + y0;
+            </code>
+            </remarks>
+        </member>
+        <member name="F:UniCanvas.Cairo.CairoMatrix.xx">
+            <summary>
+            xx component of the affine transformation
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.CairoMatrix.yx">
+            <summary>
+            yx component of the affine transformation
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.CairoMatrix.xy">
+            <summary>
+            xy component of the affine transformation
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.CairoMatrix.yy">
+            <summary>
+            yy component of the affine transformation
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.CairoMatrix.x0">
+            <summary>
+            X translation component of the affine transformation
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.CairoMatrix.y0">
+            <summary>
+            Y translation component of the affine transformation
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.FontExtents">
+            <summary>
+            The FontExtents structure stores metric information for a font.
+            Values are given in the current user-space coordinate system.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontExtents.ascent">
+            <summary>
+            the distance that the font extends above the baseline.
+            Note that this is not always exactly equal to the maximum
+            of the extents of all the glyphs in the font,
+            but rather is picked to express the font designer's
+            intent as to how the font should align with elements above it.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontExtents.descent">
+            <summary>
+            the distance that the font extends below the baseline.
+            This value is positive for typical fonts that include
+            portions below the baseline.
+            Note that this is not always exactly equal to the maximum
+            of the extents of all the glyphs in the font,
+            but rather is picked to express the font designer's
+            intent as to how the font should align with elements below it.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontExtents.height">
+            <summary>
+            the recommended vertical distance between baselines
+            when setting consecutive lines of text with the font.
+            This is greater than ascent +descent by a quantity
+            known as the line spacing or external leading.
+            When space is at a premium, most fonts can be set
+            with only a distance of ascent +descent between lines.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontExtents.maxXAdvance">
+            <summary>
+            the maximum distance in the X direction
+            that the origin is advanced for any glyph in the font.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.FontExtents.maxYAdvance">
+            <summary>
+            the maximum distance in the Y direction that
+            the origin is advanced for any glyph in the font.
+            This will be zero for normal fonts used for
+            horizontal writing.
+            (The scripts of East Asia are sometimes written vertically.)
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Glyph">
+            <summary>
+            The Glyph structure holds information
+            about a single glyph when drawing or measuring text.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Glyph.index">
+            <summary>
+            glyph index in the font.
+            The exact interpretation of the glyph index
+            depends on the font technology being used.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Glyph.x">
+            <summary>
+            the offset in the X direction between the origin
+            used for drawing or measuring the string
+            and the origin of this glyph.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Glyph.y">
+            <summary>
+            the offset in the Y direction between the origin
+            used for drawing or measuring the string
+            and the origin of this glyph.
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Path">
+            <summary>
+            A data structure for holding a path.
+            This data structure serves as the return value
+            for cairo_copy_path() and cairo_copy_path_flat()
+            as well the input value for cairo_append_path().
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Path.status">
+            <summary>
+            the current error status
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Path.data">
+            <summary>
+            the elements in the path
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Path.numData">
+            <summary>
+            the number of elements in the data array
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.PathData">
+            <summary>
+            PathData is used to represent the path data inside a Path.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.Rectangle">
+            <summary>
+            A data structure for holding a rectangle.
+            Since: 1.4
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Rectangle.x">
+            <summary>
+            X coordinate of the left side of the rectangle
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Rectangle.y">
+            <summary>
+            Y coordinate of the the top side of the rectangle
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Rectangle.width">
+            <summary>
+            width of the rectangle
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.Rectangle.height">
+            <summary>
+            height of the rectangle
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.RectangleInt">
+            <summary>
+            A data structure for holding a rectangle with integer coordinates.
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleInt.x">
+            <summary>
+            X coordinate of the left side of the rectangle
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleInt.y">
+            <summary>
+            Y coordinate of the the top side of the rectangle
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleInt.width">
+            <summary>
+            width of the rectangle
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleInt.height">
+            <summary>
+            height of the rectangle
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.RectangleList">
+            <summary>
+            A data structure for holding
+            a dynamically allocated array of rectangles.
+            Since: 1.4
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleList.status">
+            <summary>
+            Error status of the rectangle list
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleList.rectangles">
+            <summary>
+            Array containing the rectangles
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.RectangleList.numRectangles">
+            <summary>
+            Number of rectangles in this list
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.TextCluster">
+            <summary>
+            The TextCluster structure holds information about a single text cluster.
+            Since: 1.8
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextCluster.numBytes">
+            <summary>
+            the number of bytes of UTF-8 text covered by cluster
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextCluster.numGlyphs">
+            <summary>
+            the number of glyphs covered by cluster
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.TextExtents">
+            <summary>
+            The cairo_text_extents_t structure stores the extents
+            of a single glyph or a string of glyphs in user-space coordinates.
+            Since: 1.0
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextExtents.xBearing">
+            <summary>
+            the horizontal distance from the origin to the leftmost
+            part of the glyphs as drawn.
+            Positive if the glyphs lie entirely to the right of the origin.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextExtents.yBearing">
+            <summary>
+            the vertical distance from the origin to the topmost
+            part of the glyphs as drawn.
+            Positive only if the glyphs lie completely below the origin;
+            will usually be negative.
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextExtents.width">
+            <summary>
+            width of the glyphs as drawn
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextExtents.height">
+            <summary>
+            height of the glyphs as drawn
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextExtents.xAdvance">
+            <summary>
+            distance to advance in the X direction after drawing these glyphs
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.TextExtents.yAdvance">
+            <summary>
+            distance to advance in the Y direction after drawing these glyphs.
+            Will typically be zero except for vertical text layout
+            as found in East-Asian languages.
+            </summary>
+        </member>
+        <member name="T:UniCanvas.Cairo.DestroyFunc">
+            <summary>
+            DestroyFunc the type of function which is called
+            when a data element is destroyed.
+            It is passed the pointer to the data element and should
+            free any memory and resources allocated for it.
+            Since: 1.0
+            </summary>
+            <param name="data">The data element being destroyed.</param>
+        </member>
+        <member name="T:UniCanvas.Cairo.WriteFunc">
+            <summary>
+            WriteFunc is the type of function which is called
+            when a backend needs to write data to an output stream.
+            Since: 1.0
+            </summary>
+            <param name="closure">the output closure</param>
+            <param name="data">the buffer containing the data to write</param>
+            <param name="length">the amount of data to write</param>
+            <returns>the status code of the write operation</returns>
+        </member>
+        <member name="T:UniCanvas.Cairo.ReadFunc">
+            <summary>
+            ReadFunc is the type of function which is called
+            when a backend needs to read data from an input stream.
+            Since: 1.0
+            </summary>
+            <param name="closure">the input closure</param>
+            <param name="data">the buffer into which to read the data</param>
+            <param name="length">the amount of data to read</param>
+            <returns>the status code of the read operation</returns>
+        </member>
+        <member name="T:UniCanvas.Cairo.RasterSourceAcquireFunc">
+            <summary>
+            RasterSourceAcquireFunc is the type of function
+            which is called when a pattern is being rendered from.
+            Since: 1.12
+            </summary>
+            <param name="pattern">the pattern being rendered from</param>
+            <param name="callback_data">the user data supplied during creation</param>
+            <param name="target">the rendering target surface</param>
+            <param name="extents">rectangular region of interest in pixels in sample space</param>
+            <returns>a cairo_surface_t</returns>
+        </member>
+        <member name="T:UniCanvas.Cairo.RasterSourceReleaseFunc">
+            <summary>
+            RasterSourceReleaseFunc is the type of function
+            which is called when the pixel data is no longer
+            being access by the pattern for the rendering operation.
+            Typically this function will simply destroy
+            the surface created during acquire.
+            Since: 1.12
+            </summary>
+            <param name="pattern">the pattern being rendered from</param>
+            <param name="callback_data">the user data supplied during creation</param>
+            <param name="surface">the surface created during acquire</param>
+        </member>
+        <member name="T:UniCanvas.Cairo.RasterSourceSnapshotFunc">
+            <summary>
+            RasterSourceSnapshotFunc is the type of function
+            which is called when the pixel data needs to
+            be preserved for later use during printing.
+            This pattern will be accessed again later,
+            and it is expected to provide the pixel data
+            that was current at the time of snapshotting.
+            Since: 1.12
+            </summary>
+            <param name="pattern">the pattern being rendered from</param>
+            <param name="callback_data">the user data supplied during creation</param>
+            <returns>CAIRO_STATUS_SUCCESS on success, or one of the cairo_status_t error codes for failure.</returns>
+        </member>
+        <member name="T:UniCanvas.Cairo.RasterSourceCopyFunc">
+            <summary>
+            RasterSourceCopyFunc is the type of function
+            which is called when the pattern gets copied
+            as a normal part of rendering.
+            Since: 1.12
+            </summary>
+            <param name="pattern">the cairo_pattern_t that was copied to</param>
+            <param name="callback_data">the user data supplied during creation</param>
+            <param name="other">the cairo_pattern_t being used as the source for the copy</param>
+            <returns>CAIRO_STATUS_SUCCESS on success, or one of the cairo_status_t error codes for failure.</returns>
+        </member>
+        <member name="T:UniCanvas.Cairo.RasterSourceFinishFunc">
+            <summary>
+            RasterSourceFinishFunc is the type of function
+            which is called when the pattern (or a copy thereof)
+            is no longer required.
+            Since: 1.12
+            </summary>
+            <param name="pattern">the pattern being rendered from</param>
+            <param name="callback_data">the user data supplied during creation</param>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.CCITT_FAX">
+            <summary>
+            Group 3 or Group 4 CCITT facsimile encoding
+            (International Telecommunication Union, Recommendations T.4 and T.6.)
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.CCITT_FAX_PARAMS">
+            <summary>
+            Decode parameters for Group 3 or
+            Group 4 CCITT facsimile encoding.
+            See CCITT Fax Images.
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.EPS">
+            <summary>
+            Encapsulated PostScript file.
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.EPS_PARAMS">
+            <summary>
+            Embedding parameters Encapsulated PostScript data.
+            Since: 1.16
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.JBIG2">
+            <summary>
+            Joint Bi-level Image Experts Group image coding standard (ISO/IEC 11544).
+            Since: 1.14
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.JBIG2_GLOBAL">
+            <summary>
+            Joint Bi-level Image Experts Group image coding standard (ISO/IEC 11544) global segment.
+            Since: 1.14
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.JBIG2_GLOBAL_ID">
+            <summary>
+            An unique identifier shared by a JBIG2 global segment
+            and all JBIG2 images that depend on the global segment.
+            Since: 1.14
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.JP2">
+            <summary>
+            The Joint Photographic Experts Group (JPEG) 2000
+            image coding standard (ISO/IEC 15444-1).
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.JPEG">
+            <summary>
+            The Joint Photographic Experts Group (JPEG)
+            image coding standard (ISO/IEC 10918-1).
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.PNG">
+            <summary>
+            The Portable Network Graphics image file format (ISO/IEC 15948).
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.URI">
+            <summary>
+            URI for an image file (unofficial MIME type).
+            Since: 1.10
+            </summary>
+        </member>
+        <member name="F:UniCanvas.Cairo.MimeType.UNIQUE_ID">
+            <summary>
+            Unique identifier for a surface (cairo specific MIME type).
+            All surfaces with the same unique identifier will only be embedded once.
+            Since: 1.12
+            </summary>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_has_current_point(System.IntPtr)">
+            <summary>
+            Since: 1.6
+            </summary>
+            <param name="cr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_new_sub_path(System.IntPtr)">
+            <summary>
+            Since: 1.2
+            </summary>
+            <param name="cr"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_path_extents(System.IntPtr,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.6
+            </summary>
+            <param name="cr"></param>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_color_stop_count(System.IntPtr,System.Int32@)">
+            <summary>
+            Since: 1.4
+            </summary>
+            <param name="pattern"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_color_stop_rgba(System.IntPtr,System.Int32,System.Double@,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.4
+            </summary>
+            <param name="pattern"></param>
+            <param name="index"></param>
+            <param name="offset"></param>
+            <param name="red"></param>
+            <param name="green"></param>
+            <param name="blue"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_rgba(System.IntPtr,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.4
+            </summary>
+            <param name="pattern"></param>
+            <param name="red"></param>
+            <param name="green"></param>
+            <param name="blue"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_linear_points(System.IntPtr,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.4
+            </summary>
+            <param name="pattern"></param>
+            <param name="x0"></param>
+            <param name="y0"></param>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_radial_circles(System.IntPtr,System.Double@,System.Double@,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.4
+            </summary>
+            <param name="pattern"></param>
+            <param name="x0"></param>
+            <param name="y0"></param>
+            <param name="r0"></param>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="r1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_create_mesh">
+            <summary>
+            Since: 1.12
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_begin_patch(System.IntPtr)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_end_patch(System.IntPtr)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_move_to(System.IntPtr,System.Double,System.Double)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_line_to(System.IntPtr,System.Double,System.Double)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_curve_to(System.IntPtr,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="x3"></param>
+            <param name="y3"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_set_control_point(System.IntPtr,System.UInt32,System.Double,System.Double)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="point_num"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_set_corner_color_rgb(System.IntPtr,System.UInt32,System.Double,System.Double,System.Double)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="corner_num"></param>
+            <param name="red"></param>
+            <param name="green"></param>
+            <param name="blue"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_set_corner_color_rgba(System.IntPtr,System.UInt32,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="corner_num"></param>
+            <param name="red"></param>
+            <param name="green"></param>
+            <param name="blue"></param>
+            <param name="alpha"></param>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_get_patch_count(System.IntPtr,System.UInt32@)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_get_path(System.IntPtr,System.UInt32)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="patch_num"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_get_control_point(System.IntPtr,System.UInt32,System.UInt32,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="patch_num"></param>
+            <param name="point_num"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_mesh_pattern_get_corner_color_rgba(System.IntPtr,System.UInt32,System.UInt32,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Since: 1.12
+            </summary>
+            <param name="pattern"></param>
+            <param name="patch_num"></param>
+            <param name="corner_num"></param>
+            <param name="red"></param>
+            <param name="green"></param>
+            <param name="blue"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_type(System.IntPtr)">
+            <summary>
+            Since: 1.2
+            </summary>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_pattern_get_reference_count(System.IntPtr)">
+            <summary>
+            Since: 1.4
+            </summary>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniCanvas.Cairo.NativeMethods.cairo_matrix_init_identity(UniCanvas.Cairo.CairoMatrix)">
+            <summary>
+            Modifies matrix to be an identity transformation.
+            </summary>
+            <remarks>
+            Since: 1.0
+            </remarks>
+            <param name="matrix">a cairo_matrix_t</param>
+        </member>
+    </members>
+</doc>
