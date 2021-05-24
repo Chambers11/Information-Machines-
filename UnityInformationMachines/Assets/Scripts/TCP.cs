@@ -95,6 +95,7 @@ public class TCP: MonoBehaviour
 	{
 		if (socketConnection == null)
 		{
+			Debug.LogError("Connection to database is not on");
 			return;
 		}
 		try
@@ -124,4 +125,10 @@ public class TCP: MonoBehaviour
 	{
 		SendMessageToServer(newOrderMessage);
 	}
+	public void CustomOrder(int PNo )
+    {
+		SendMessageToServer("444;RequestID=0;MClass=101;MNo=2;ErrorState=0;#PNo=" + PNo + ";#Aux1Int=1\r");
+    }
+	
+
 }
