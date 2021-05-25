@@ -1,19 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Palette : MonoBehaviour
 {
-    public float smoothTime = 1f;
+    public float smoothTime;
+    public int PaletteNo;
+    public TextMeshProUGUI paletteText; 
 
     private Vector3 targetPostion;
     private Vector3 velocity = Vector3.zero;
 
     private bool isMoving; 
-    public void Move(Vector3 NewPosition)
+    public void Move(Transform StartTransform, Transform EndTransform, int ID)
     {
-        targetPostion = NewPosition;
-        isMoving = true; 
+        transform.position = StartTransform.position; 
+        targetPostion = EndTransform.position;
+        PaletteNo = ID;
+        paletteText.text = ID.ToString();
+        isMoving = true;
+
+        Debug.Log("Palette has gone throguh");
+        
+
     }
     
     // Start is called before the first frame update
@@ -27,7 +37,8 @@ public class Palette : MonoBehaviour
     {
         if (isMoving)
         {
-            transform.position = Vector3.SmoothDamp(transform.position, targetPostion, ref velocity, smoothTime);
+           transform.position = Vector3.SmoothDamp(transform.position, targetPostion, ref velocity, smoothTime);
+            transform.LookAt(targetPostion);
         }
     }
 }

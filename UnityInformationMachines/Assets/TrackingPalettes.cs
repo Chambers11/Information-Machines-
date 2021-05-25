@@ -17,6 +17,7 @@ public class TrackingPalettes : MonoBehaviour
         for (int i = 0; i < NumberOfPaletts; i++)
         {
             Palettes[i] = Instantiate(PalettePrefab);
+            Palettes[i].name = "Palette " + i; 
         }
     }
 

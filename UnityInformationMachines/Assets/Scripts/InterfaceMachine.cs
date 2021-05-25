@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using game4automation;
 using System;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class InterfaceMachine : MonoBehaviour
 {
     private OPCUA_Interface oPCUA_Interface;
     private TrackingPalettes trackingPalettes;
 
-    public Text paletteNumber; 
-    
+    public Text paletteNumber;
+
     public string NodeID, NodeValue;
 
 
@@ -40,25 +40,18 @@ public class InterfaceMachine : MonoBehaviour
         var subscription = oPCUA_Interface.Subscribe(NodeID, NodeChanged);
     }
 
-    private void NodeChanged(OPCUANodeSubscription sub, object value)
-    {
-        Debug.Log(value.ToString());
-        NodeValue = value.ToString();
-
-
-        paletteNumber.text = NodeValue; 
-
-        int paletteID = Int32.Parse(value.ToString());
-        trackingPalettes.Palettes[paletteID].transform.position = conveyerStartTrans.position;
-        trackingPalettes.Palettes[paletteID].GetComponent<Palette>().Move(conveyerEndTrans.position);
-
-    }
-
-
     private void OnDisconnected()
     {
         Debug.Log("Disconnected");
     }
+
+    private void NodeChanged(OPCUANodeSubscription Sub, object value)
+    {
+        int PaletteID = int.Parse(value.ToString());
+        trackingPalettes.Palettes[PaletteID].GetComponent<Palette>().Move(conveyerStartTrans, conveyerEndTrans, PaletteID);
+
+    }
+
     // Update is called once per frame
     void Update()
     {

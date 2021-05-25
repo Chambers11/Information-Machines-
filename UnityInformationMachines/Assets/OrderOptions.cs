@@ -55,6 +55,7 @@ public class OrderOptions : MonoBehaviour
                 case UnityWebRequest.Result.Success:
                     Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
                     ConvertOrderDataToArray(webRequest.downloadHandler.text);
+                    Debug.Log(webRequest.downloadHandler.text);
                     break;
             }
         }
