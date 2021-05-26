@@ -124,6 +124,7 @@ public class TCP: MonoBehaviour
 	public void OrderCompleteNewPhone()
 	{
 		SendMessageToServer(newOrderMessage);
+
 	}
 	public void CustomOrder(int PNo )
     {
