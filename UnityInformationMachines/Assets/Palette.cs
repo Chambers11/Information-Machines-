@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Palette : MonoBehaviour
 {
     public float smoothTime;
     public int PaletteNo;
-    public TextMeshProUGUI paletteText; 
+    public TextMeshProUGUI paletteText;
+    public MeshRenderer sphereRenderer;
+    public Canvas paletteCanvas; 
+
 
     private Vector3 targetPostion;
     private Vector3 velocity = Vector3.zero;
@@ -39,6 +43,20 @@ public class Palette : MonoBehaviour
         {
            transform.position = Vector3.SmoothDamp(transform.position, targetPostion, ref velocity, smoothTime);
             transform.LookAt(targetPostion);
+        }
+    }
+
+    public void ToggleMeshRendererOnAndOff()
+    {
+        if (sphereRenderer.enabled == true)
+        {
+            sphereRenderer.enabled = false;
+            paletteCanvas.enabled = false;
+        }
+        else
+        {
+            sphereRenderer.enabled = true;
+            paletteCanvas.enabled = true;
         }
     }
 }

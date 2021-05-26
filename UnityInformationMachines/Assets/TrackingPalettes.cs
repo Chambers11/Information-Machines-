@@ -21,6 +21,14 @@ public class TrackingPalettes : MonoBehaviour
         }
     }
 
+    public void ToggleAllPalettesOnAndOff()
+    {
+        for (int i = 0; i < Palettes.Length; i++)
+        {
+            Palettes[i].GetComponent<Palette>().ToggleMeshRendererOnAndOff();
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
