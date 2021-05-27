@@ -5,7 +5,7 @@
 
 ## Trailer Video
 
-![Information Machines](https://youtu.be/1nDR0ujccMU)
+[Information Machines](https://youtu.be/1nDR0ujccMU)
 
 ### Overview
 
