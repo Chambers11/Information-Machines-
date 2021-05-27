@@ -1,5 +1,5 @@
 # Information-Machines
-## FFESTO Cyber Physical Factory
+## FESTO Cyber Physical Factory
 
 ### Overview
 
