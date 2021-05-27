@@ -10,11 +10,24 @@ public class OrderButton : MonoBehaviour
 {
     public TextMeshProUGUI PNo;
     public Image OrderImage;
+    public int productNumber;
+
+    public OrderOptions orderOptions;
+
+    private void Start()
+    {
+        orderOptions = GameObject.FindObjectOfType<OrderOptions>();
+    }
+
     public void ImageDownloader(string url)
     {
         StartCoroutine(setImage(url)); //balanced parens CAS
     }
 
+    public void ProductOrder()
+    {
+        orderOptions.OrderPNoOnClick(productNumber);
+    }
    
     IEnumerator setImage(string uri)
     {

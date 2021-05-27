@@ -15,23 +15,21 @@ public class OrderOptions : MonoBehaviour
     public TCP tCP; 
     public void RequestOrderOptions()
     {
-       
-        if (Test)
+        if (listOfOrderOptionsPanel.transform.childCount < 1)
         {
-            ConvertOrderDataToArray(jSOnTestData);
-            Debug.LogError("This module is testing don't test live");
+            if (Test)
+            {
+                ConvertOrderDataToArray(jSOnTestData);
+                Debug.LogError("This module is testing don't test live");
+            }
+            else
+            {
+                StartCoroutine(GetRequest(exampleURL));
+            }
         }
-        else
-        {
-            StartCoroutine(GetRequest(exampleURL));
-        }
-    }
+    } 
 
 
-    public void HelloChambers()
-    {
-
-    }
     // Web resquest is coming fromt he uri, 
     IEnumerator GetRequest(string uri)
     {
@@ -90,12 +88,13 @@ public class OrderOptions : MonoBehaviour
             InstantiatedOrderButton.transform.SetParent(listOfOrderOptionsPanel.transform, false);
             OrderButton OrderButtonScript = InstantiatedOrderButton.GetComponent(typeof(OrderButton)) as OrderButton;
             OrderButtonScript.PNo.text = orderOptionObjectArray[i].PNo.ToString();
-            Button button = InstantiatedOrderButton.GetComponent<Button>() as Button ;
+            OrderButtonScript.productNumber = orderOptionObjectArray[i].PNo;
+          /* Button button = InstantiatedOrderButton.GetComponent<Button>() as Button ;
             int temp = orderOptionObjectArray[i].PNo;
-            button.onClick.AddListener(()=> OrderPNoOnClick(temp));
-            if (Test)
+            button.onClick.AddListener(()=> OrderPNoOnClick(temp)); */
+           if (Test )
             {
-                // Implement a load test UI
+               
             }
             else 
             { 

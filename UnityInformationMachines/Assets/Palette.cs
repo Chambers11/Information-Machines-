@@ -25,7 +25,7 @@ public class Palette : MonoBehaviour
         paletteText.text = ID.ToString();
         isMoving = true;
 
-        Debug.Log("Palette has gone throguh");
+      //  Debug.Log("Palette has gone throguh");
         
 
     }
