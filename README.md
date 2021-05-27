@@ -5,7 +5,10 @@
 
 ## Trailer Video
 
-[Information Machines](https://youtu.be/1nDR0ujccMU)
+[YouTube Information Machines](https://youtu.be/1nDR0ujccMU)
+
+![Screenshot 2021-05-27 072333](https://user-images.githubusercontent.com/72683052/119805374-1ab23780-bed9-11eb-9922-570bf0e7924f.png)
+
 
 ### Overview
 
@@ -21,6 +24,7 @@ Hardware: Acer Mixed Reality Headset, NVIDIA GTX 1070, Intel i7 7 th Gen
 
 Hardware: Samsung Tablet S7 +  
 
+## Samsung Tablet Homescreen View
 
 ![Screenshot 2021-05-27 060703](https://user-images.githubusercontent.com/72683052/119769456-62719880-beb2-11eb-9708-02bd87d13542.png)
 
