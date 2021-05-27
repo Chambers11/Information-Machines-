@@ -20,3 +20,7 @@ Hardware: Samsung Tablet S7 +
 
 
 ![Screenshot 2021-05-27 060703](https://user-images.githubusercontent.com/72683052/119769456-62719880-beb2-11eb-9708-02bd87d13542.png)
+
+# Introduction
+
+The augmented reality application that was designed and discussed in this document, was designed to visually relay information from a  Festo Cyber physical factory. The design of the application included creating a Digital Twin simulation that would simulate the real world Festo Cyber physical factory, tracking of carts and linking of orders from the Festo machine database.  
