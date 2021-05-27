@@ -3,6 +3,9 @@
 
 ![Screenshot 2021-05-27 064714](https://user-images.githubusercontent.com/72683052/119783926-9d30fc00-bec5-11eb-8b56-f558e29af4cb.png)
 
+## Trailer Video
+
+![Information Machines](https://youtu.be/1nDR0ujccMU)
 
 ### Overview
 
